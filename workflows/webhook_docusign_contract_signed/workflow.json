@@ -1,0 +1,18 @@
+{
+   "name": "webhook_docusign_contract_signed",
+   "title": "Capture Document Signatures in Docusign",
+   "description": "Many organizations use Docusign to control agreements – such as Non-Disclosure Agreements (NDAs), Lease Contracts, and Terms of Service (TOS) – that dictate which resources users can access. This template leverages Docusign webhooks to capture when a user signed a document. This information is used by Okta do determine which systems a user can access.",
+   "connectors": [
+      "okta"
+   ],
+   "details": {
+    "flowCount": 2,
+    "stashCount": 0
+  },
+   "links": [
+      {
+         "title": "Setup Documentation",
+         "destination": "https://github.com/okta/workflows-templates/blob/master/workflows/webhook_docusign_contract_signed/readme.md"
+      }
+   ]
+}
